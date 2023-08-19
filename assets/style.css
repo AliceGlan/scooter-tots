@@ -15,18 +15,48 @@ body {
 
 /* header*/
 header {
-    background-color: #F9C74F; 
+    background-color: #43AA8B; 
     color: white;
-    padding: 15px 25px;
+    padding: 30px 15px;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-
 }
 
 h1 {
     text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 3px;
+    font-size: 110%;
+}
+
+#menu > li {
+    margin: 1em;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+/* nav bar for toggle*/
+nav {
+    position: absolute;
+    background-color: #43AA8B;
+    width: 100%;
+    left: 0;
+    padding: 20px 15px;
+    display: none;
 }
 
 /* main content */
