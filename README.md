@@ -1,5 +1,8 @@
 # Scooter Tots
 
+Scooter Tots website is an advertisement for an event/club for mums, dads and other caregivers to take their preschool-aged children to. This website is for tired mums and dads with children with lots of energy and an interest in scooters, bikes and other wheelbase riding toys. It gives mums and dads an opportunity to get out of the house and socialise with like-minded people. Parenting can be an isolating time, this club gives socialisation opportunities to both parent and child. This site communicates what the club is, where and when they plan to meet, and an opportunity to submit a form with some questions.
+
+Scooter Tots’' website is designed to be responsive, knowing that users may access and use this website on a range of different devices.
 <!-- insert screen shot  -->
 <!-- [Responsice Mockup]()
 link to website -->
