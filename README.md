@@ -12,9 +12,18 @@ link to website -->
 ### User Stories
 
 #### First-Time Visitor Goals
+- I want to understand what the club is about
+- I want to check the requirements for attending the club
+- I want to find out when and where the club is taking place
+- I want to feel like the club is welcoming and inviting
 
 #### Returning Visitor Goals
+- I want to check the day and time of the event
+- I want to check the requirements or things I may need to take
+- I want to contact the club organiser and ask some questions
 
+#### Frequent Visitor Goals
+- I want to look at the most recent gallery uploads
 
 ## Design
 
