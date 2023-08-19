@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&family=Sansita:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+/* header*/
+
+/* main content */
+main {
+    flex: 1 0 auto;
+}
+
+/*footer*/
