@@ -14,6 +14,9 @@ body {
 }
 
 /* header*/
+h1 {
+    text-transform: uppercase;
+}
 
 /* main content */
 main {
