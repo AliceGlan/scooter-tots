@@ -17,7 +17,7 @@ body {
 header {
     background-color: #43AA8B; 
     color: white;
-    padding: 20px 15px;
+    padding: 20px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -58,7 +58,7 @@ nav {
     background-color: #43AA8B;
     width: 100%;
     left: 0;
-    padding: 15px ;
+    padding: 20px;
     display: none;
     top: 100%;
     text-align: center;
@@ -85,3 +85,45 @@ main {
 }
 
 /*footer*/
+
+
+/* media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* header*/ 
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display:flex;
+    }
+
+    #menu > li {
+        padding-left: 15px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+        /* main content */
+        main {
+            margin-top: 130px;
+        }
+}
+
+
+
+/* media query: tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    
+
+    #logo {
+        font-size: 300%;
+        padding-left: 20px;
+    }
+}
