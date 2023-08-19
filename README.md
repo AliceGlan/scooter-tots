@@ -1,39 +1,86 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Scooter Tots
 
-Welcome,
+<!-- insert screen shot  -->
+<!-- [Responsice Mockup]()
+link to website -->
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Experience (UX)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+### User Stories
 
-## Codeanywhere Reminders
+#### First-Time Visitor Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+#### Returning Visitor Goals
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Colour Scheme
 
-`http_server`
+### Typography
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Technologies Used
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Languages Used
 
-To log into the Heroku toolbelt CLI:
+HTML and CSS
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Frameworks, Libraries and Programs Used
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Github - to save and store files for website
 
----
+Favicon
 
-Happy coding!
+Google Dev tools -
+
+Font Awsome -
+
+## Deployment
+
+<!--  This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+The live link can be found here -  -->
+
+## Testing
+
+<!--  In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+
+### Validator Testing
+<!--
+- HTML
+
+- CSS -->
+
+### Unfixed Bugs
+
+<!--  You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
+
+## Credits
+
+### Code used
+
+### Content
+
+The content input in my own words (Alice Ganville) with the direction of Nancy Kimberley and Tom Kimberley.
+
+### Design
+
+- Header and Navigation visual design (<https://www.winterarchitects.uk/?gclid=CjwKCAjwivemBhBhEiwAJxNWNxm8HOVzSJGq8GL_aCxfT_yGHL5jYQJScM7bTfGTRp3qhnvXgDxD3hoCvw8QAvD_BwE>)
+- Navigation headings (<https://www.robertslimbrick.com/> )
+- Design inspiration, my client really liked this website, including features like the hero image use. (<https://www.chalkarchitects.co.uk/>)
+
+### Media
+
+## Acknowledgements
+
+- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- Accessibility and Meta Tags, by Abigail Harrison webinar (<https://www.youtube.com/watch?v=t-4qqmikIqk>)
+- Kera - readme webinar
