@@ -17,10 +17,13 @@ body {
 header {
     background-color: #43AA8B; 
     color: white;
-    padding: 30px 15px;
+    padding: 20px 15px;
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -41,7 +44,7 @@ header a {
 }
 
 #menu > li {
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -55,8 +58,23 @@ nav {
     background-color: #43AA8B;
     width: 100%;
     left: 0;
-    padding: 20px 15px;
+    padding: 15px ;
     display: none;
+    top: 100%;
+    text-align: center;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 30px;
+    padding-right: 10px;
 }
 
 /* main content */
