@@ -15,9 +15,9 @@ body {
 
 /* header*/
 header {
-    background-color: #43AA8B; 
+    background-color: #F8961E; 
     color: white;
-    padding: 20px;
+    padding: 1rem 1rem 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -55,7 +55,7 @@ header a {
 /* nav bar for toggle*/
 nav {
     position: absolute;
-    background-color: #43AA8B;
+    background-color: #F8961E;
     width: 100%;
     left: 0;
     padding: 20px;
@@ -80,7 +80,7 @@ nav {
 /* main content */
 main {
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: 98px;
     color: black;
 }
 
@@ -90,12 +90,20 @@ main {
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* header*/ 
+    header {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
 
     nav {
         display: block;
         position: relative;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 2rem;
+    
     }
 
     #menu {
@@ -103,16 +111,17 @@ main {
     }
 
     #menu > li {
-        padding-left: 15px;
+        padding-left: 2rem;
+        font-size: 110%;
     }
 
     .nav-toggle-label {
         display: none;
     }
 
-        /* main content */
+    /* main content */
         main {
-            margin-top: 130px;
+            margin-top: 140px;
         }
 }
 
