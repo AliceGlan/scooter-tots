@@ -36,7 +36,8 @@ header a {
 #logo {
     font-family: 'Bangers', cursive;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
+    font-size: 260%;
 }
 
 #menu {
@@ -92,8 +93,35 @@ footer {
     color: white;
     display: flex;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
     width: 100%;
+    letter-spacing: 1px;
+}
+
+#mailing-list #mailing-form {
+    font-size: 80%;
+}
+
+#mailing-list {
+    margin-bottom: 3px;
+    margin-top: 4px;
+    letter-spacing: 2px;
+}
+
+#mailing-form > input {
+    margin: 3px;
+}
+
+
+form > #subscribe {
+    justify-content: flex-end;
+}
+
+#subscribe {
+    padding: 4px;
+    background-color: #04AA6D;
+    color: white;
+    letter-spacing: 1px;
 }
 
 #social {
@@ -105,7 +133,7 @@ footer {
 }
 
 #social i {
-    font-size: 160%;
+    font-size: 180%;
     padding: 1rem;
     color: white;
 }
