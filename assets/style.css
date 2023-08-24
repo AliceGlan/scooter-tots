@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +16,7 @@ body {
 
 /* header*/
 header {
-    background-color: #F8961E; 
+    background-color: #F8961E;
     color: white;
     padding: 1rem 1rem 1rem 1rem;
     position: fixed;
@@ -29,7 +30,7 @@ header {
 h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+
 }
 
 header a {
@@ -43,7 +44,7 @@ header a {
     font-size: 110%;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -89,7 +90,8 @@ main {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* header*/ 
+
+    /* header*/
     header {
         padding: 2rem 1rem 1rem 1rem;
     }
@@ -103,14 +105,14 @@ main {
         position: relative;
         width: fit-content;
         padding-right: 2rem;
-    
+
     }
 
     #menu {
-        display:flex;
+        display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 2rem;
         font-size: 110%;
     }
@@ -120,16 +122,16 @@ main {
     }
 
     /* main content */
-        main {
-            margin-top: 140px;
-        }
+    main {
+        margin-top: 140px;
+    }
 }
 
 
 
 /* media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    
+
 
     #logo {
         font-size: 300%;
