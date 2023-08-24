@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400&display=swap');
 
 * {
     padding: 0;
@@ -12,18 +12,19 @@ body {
     flex-direction: column;
     color: black;
     font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
 }
 
 /* header*/
 header {
-    background-color: #F8961E;
+    background-color: #C32F27;
     color: white;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 5px;
     position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 
@@ -56,7 +57,7 @@ header a {
 /* nav bar for toggle*/
 nav {
     position: absolute;
-    background-color: #F8961E;
+    background-color: #C32F27;
     width: 100%;
     left: 0;
     padding: 20px;
