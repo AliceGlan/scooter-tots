@@ -105,11 +105,11 @@ footer {
 }
 
 #mailing-form {
-    font-size: 80%;
+    font-size: 85%;
 }
 
-#mailing-form > input {
-    margin: 3px;
+#mailing-form input {
+    margin: 5px;
 }
 
 #subscribe {
@@ -176,23 +176,30 @@ footer {
     main {
         margin-top: 140px;
     }
-/*footer*/
-footer {
-    justify-content: space-between;
-    
-}
+    /*footer*/
+    footer {
+        justify-content: space-between;
+    }
 
- #mailing-form {
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
-    font-size: 100%;
- }
+    #mailing-form {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+        font-size: 100%;
+    }
 
- #social {
-    font-size: 120%;
-    padding: 2px 10px;
- }
+    #mailing-form h4 {
+        padding-right: 40px;
+    }
+
+    #mailing-form label {
+        margin-left: 20px;
+    }
+
+    #social {
+        font-size: 120%;
+        padding: 2px 10px;
+    }
 
 }
 
