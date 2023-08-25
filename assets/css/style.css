@@ -87,6 +87,9 @@ main {
     display: flex;
     flex-direction: column;
 }
+main img {
+    width: 100%;
+}
 
 #hero {
     background: url("../images/hero.png") no-repeat center center/cover;
@@ -111,6 +114,7 @@ main {
 
 #benefits-tots {
     background-color: #FFCC7C;
+    
 }
 
 #benefits-you {
