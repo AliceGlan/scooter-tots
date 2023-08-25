@@ -23,7 +23,7 @@ header {
     z-index: 99;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: baseline;
 }
 
@@ -37,12 +37,13 @@ header a {
     text-transform: uppercase;
     letter-spacing: 8px;
     font-size: 260%;
+    padding-right: 30px;
 }
 
 #menu {
     list-style-type: none;
     letter-spacing: 3px;
-    font-size: 110%;
+    font-size: 90%;
 }
 
 #menu>li {
@@ -114,7 +115,7 @@ main img {
 
 #benefits-tots {
     background-color: #FFCC7C;
-    
+
 }
 
 #benefits-you {
@@ -181,29 +182,26 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-
     }
 
     #logo {
         font-size: 300%;
-
     }
 
     nav {
         display: block;
         position: relative;
         width: fit-content;
-
     }
 
     #menu {
         display: flex;
+        justify-content: space-evenly;
+        align-self: stretch;
     }
 
     #menu>li {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        font-size: 100%;
+        font-size: 60%;
         margin-bottom: 0;
     }
 
