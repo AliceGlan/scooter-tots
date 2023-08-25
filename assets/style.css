@@ -96,44 +96,40 @@ footer {
     align-items: center;
     width: 100%;
     letter-spacing: 1px;
+    padding: 5px;
 }
 
-#mailing-list #mailing-form {
-    font-size: 80%;
-}
-
-#mailing-list {
-    margin-bottom: 3px;
-    margin-top: 4px;
+#mail-heading {
+    padding: 6px;
     letter-spacing: 2px;
+}
+
+#mailing-form {
+    font-size: 80%;
 }
 
 #mailing-form > input {
     margin: 3px;
 }
 
-form > #subscribe {
-    justify-content: flex-end;
-}
-
 #subscribe {
-    padding: 4px;
+    padding: 5px;
     background-color: #04AA6D;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 #social {
     list-style-type: none;
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 5px;
     justify-content: flex-end;
 }
 
 #social i {
     font-size: 200%;
-    padding: 1rem;
+    padding: 10px;
     color: white;
 }
 
@@ -180,12 +176,28 @@ form > #subscribe {
     main {
         margin-top: 140px;
     }
-}
-
 /*footer*/
 footer {
-    display: inline-grid;
+    justify-content: space-between;
+    
 }
+
+ #mailing-form {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    font-size: 100%;
+ }
+
+ #social {
+    font-size: 120%;
+    padding: 2px 10px;
+ }
+
+}
+
+
+
 
 
 /* media query: tablets and larger (992px and up) */
