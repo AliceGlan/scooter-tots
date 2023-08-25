@@ -83,8 +83,9 @@ nav {
 /* main content */
 main {
     flex: 1 0 auto;
-    margin-top: 98px;
+    margin-top: 72px;
     color: black;
+    background-color: #F7B538;
 }
 
 /*footer*/
