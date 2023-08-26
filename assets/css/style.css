@@ -93,6 +93,10 @@ main img {
     width: 100%;
 }
 
+main i {
+    padding: 2px;
+}
+
 /*hero styles*/
 .hero {
     background: url("../images/hero.png") no-repeat center center/cover;
