@@ -261,12 +261,16 @@ footer {
          justify-content: flex-start; 
          align-items: center;
          padding: 15px;
-         font-size: 130%;
+         font-size: 130%; 
     }
 
-    .content-image{
-        size: 60%;
-    }
+    .flex-end {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px;
+            font-size: 130%;
+        }
 
         /*footer*/
     footer {
