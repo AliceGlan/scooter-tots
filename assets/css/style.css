@@ -84,7 +84,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 72px;
-    background-color: #96D8C5;
+    background-color: white
     display: flex;
     flex-direction: column;
 }
@@ -111,26 +111,58 @@ main img {
     right: 20px;
 }
 
-#main h3 {
+main {
+    letter-spacing: 1px;
+}
+
+main h3 {
     text-align: center;
 }
 
 
-#benefits-tots {
+.yellow {
     background-color: #FFCC7C;
 
 }
 
-#benefits-you {
+.blue {
     background-color: #74B3EC;
 }
 
-#rules {
-    background-color: #FFCC7C;
+.orange {
+    background-color: #FF794B;
+}
+
+.box {
+    padding: 25px;
+}
+
+.side-by-side{
+    display: flex;
+    
 }
 
 #meet {
-    background-color: #74B3EC
+    background: url("../images/skate-park.png") no-repeat center center/cover;
+    height: 500px;
+    position: relative
+}
+
+#monday {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+#wednesday {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+#meet-text, #monday, #wednesday {
+    background-color: rgba(163, 158, 150, .7);
+
 }
 
 /*footer*/
