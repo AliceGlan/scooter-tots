@@ -48,7 +48,7 @@ header a {
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 0.7rem;
 }
 
 .active {
@@ -140,7 +140,7 @@ main h3 {
 }
 
 #tag-line {
-    padding: 20px;
+    padding: 20px 40px;
     text-align: center;
     font-size: 110%;
 }
@@ -226,8 +226,8 @@ footer {
     }
 
     #logo {
-        font-size: 300%;
-        margin-bottom: 5px;
+        font-size: 350%;
+        margin-bottom: 3px;
     }
 
     nav {
@@ -242,14 +242,12 @@ footer {
         align-content: center;
     }
 
-    #menu>li {
-        font-size: 60%;
+    #menu li {
         margin-bottom: 0;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        font-size: 100%;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 120%;
     }
-
 
     .nav-toggle-label {
         display: none;
@@ -290,7 +288,7 @@ footer {
             
         }
     
-    .box{
+    .box {
             max-width: 300px;
             margin: 0.7rem;
         }
@@ -319,6 +317,10 @@ footer {
         margin-left: 20px;
     }
 
+    #mail-heading {
+        text-align: center;
+    }
+
     #social {
         font-size: 120%;
         padding: 2px 10px;
@@ -336,10 +338,10 @@ footer {
         font-size: 400%;
     }
 
-    #menu>li {
+    #menu  li {
         margin-left: 7rem;
         margin-right: 7rem;
-        font-size: 120%;
+        font-size: 130%;
     }
 
     /*main*/
