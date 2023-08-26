@@ -138,6 +138,11 @@ main h3 {
     padding: 25px;
 }
 
+section li {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
 #meet {
     background: url("../images/skate-park.png") no-repeat center center/cover;
     height: 500px;
@@ -251,7 +256,19 @@ footer {
         font-size: 190%;
     }
 
-    /*footer*/
+    .flex-start {
+         display: flex;
+         justify-content: flex-start; 
+         align-items: center;
+         padding: 15px;
+         font-size: 130%;
+    }
+
+    .content-image{
+        size: 60%;
+    }
+
+        /*footer*/
     footer {
         justify-content: space-between;
     }
@@ -295,6 +312,7 @@ footer {
     }
 
     /*main*/
+
 
     .hero {
         height: 700px;
