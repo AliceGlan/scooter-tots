@@ -286,7 +286,7 @@ footer {
     
     .box{
             max-width: 300px;
-            margin: 1rem;
+            margin: 0.7rem;
         }
 
     #worries {
@@ -344,7 +344,20 @@ footer {
     }
 
     #hero-text {
-        font-size: 200%;
+        font-size: 250%;
+    }
+
+    .box {
+            max-width: 400px;
+            margin: 2rem;
+        }
+
+    #tag-line {
+        font-size: 140%;
+    }
+
+    .flex-start, .flex-end {
+        font-size: 130%;
     }
 
 }
@@ -361,5 +374,18 @@ footer {
     #hero-text {
         font-size: 290%;
     }
+
+    .box {
+            max-width: 500px;
+        }
+    
+        #tag-line {
+            font-size: 160%;
+        }
+    
+        .flex-start,
+        .flex-end {
+            font-size: 150%;
+        }
 
 }
