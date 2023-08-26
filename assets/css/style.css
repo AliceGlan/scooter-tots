@@ -84,10 +84,10 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 72px;
-    background-color: white
-    display: flex;
+    background-color: white display: flex;
     flex-direction: column;
 }
+
 main img {
     width: 100%;
 }
@@ -111,6 +111,7 @@ main img {
     bottom: 5px;
     right: 20px;
 }
+
 /*main content*/
 main {
     letter-spacing: 1px;
@@ -144,12 +145,11 @@ main h3 {
 }
 
 #meet-text {
-    background-color: rgba(163, 158, 150, .7); 
+    background-color: rgba(163, 158, 150, .7);
     position: absolute;
     bottom: 10px;
-    left: 40px;
     right: 10px;
-    padding: 0 0 15px 25px;
+    padding: 0 15px 15px 25px;
 }
 
 /* general footer styles*/
@@ -231,8 +231,8 @@ footer {
         margin-left: 5rem;
         margin-right: 5rem;
         font-size: 100%;
-     }
-    
+    }
+
 
     .nav-toggle-label {
         display: none;
@@ -250,7 +250,7 @@ footer {
     #hero-text {
         font-size: 190%;
     }
-    
+
     /*footer*/
     footer {
         justify-content: space-between;
@@ -282,7 +282,8 @@ footer {
 
 /* media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
-/*header*/
+
+    /*header*/
     #logo {
         font-size: 400%;
     }
@@ -292,29 +293,30 @@ footer {
         margin-right: 7rem;
         font-size: 120%;
     }
-/*main*/
+
+    /*main*/
 
     .hero {
         height: 700px;
-}
+    }
 
     #hero-text {
         font-size: 200%;
-}
+    }
 
 }
 
 /* media query: tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
-    
+
     /*main*/
-    
-        .hero {
-            height: 900px;
-        }
-    
-        #hero-text {
-            font-size: 290%;
-        }
+
+    .hero {
+        height: 900px;
+    }
+
+    #hero-text {
+        font-size: 290%;
+    }
 
 }
