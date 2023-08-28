@@ -175,8 +175,9 @@ section li {
 
 #meet {
     background: url("../images/skate-park.png") no-repeat center center/cover;
-    height: 500px;
-    position: relative
+    width: 100%;
+    position: relative 
+    
 }
 
 #meet-text {
