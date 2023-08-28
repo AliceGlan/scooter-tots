@@ -23,7 +23,7 @@ body {
 /* header*/
 header {
     background-color: #008A70;
-    padding: 5px;
+    padding: 6px;
     padding-left: 10px;
     position: fixed;
     z-index: 99;
@@ -172,19 +172,23 @@ section li {
     margin-left: 2rem;
 }
 
+/*meet us page*/
 
 #meet {
-    background: url("../images/skate-park.png") no-repeat center center/cover;
-    width: 100%;
-    min-height: 460px;
+    height: auto;
     position: relative;
 }
 
+.meet-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
 #meet-text {
-    background-color: rgba(163, 158, 150, .7);
+    background-color: #FF794B;
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 5px;
+    right: 10px;
     padding: 0 15px 15px 15px;
 }
 
@@ -320,6 +324,11 @@ footer {
         border-radius: 10px;
     }
     
+    #meet {
+        height: 550px;
+        width: 100%;
+    }
+
     /*footer*/
     footer {
         justify-content: space-between;
@@ -396,6 +405,10 @@ footer {
         font-size: 130%;
     }
 
+    #meet {
+        min-height: 800px;
+    }
+
 }
 
 /* media query: tablets and larger (1200px and up) */
@@ -423,5 +436,9 @@ footer {
     .flex-end {
         font-size: 150%;
     }
+
+    #meet {
+            min-height: 900px;
+        }
 
 }
