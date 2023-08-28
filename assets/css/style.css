@@ -19,7 +19,8 @@ body {
 /* header*/
 header {
     background-color: #008A70;
-    padding: 15px;
+    padding: 5px;
+    padding-left: 10px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -39,6 +40,7 @@ header a {
     letter-spacing: 8px;
     font-size: 250%;
     padding-right: 25px;
+    margin-bottom: 0px;
 }
 
 #menu {
@@ -48,7 +50,7 @@ header a {
 }
 
 #menu>li {
-    margin-bottom: 0.7rem;
+    margin-bottom: 5px;
 }
 
 .active {
@@ -62,7 +64,7 @@ nav {
     background-color: #008A70;
     width: 100%;
     left: 0;
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     display: none;
     top: 100%;
     text-align: center;
@@ -101,8 +103,9 @@ main i {
 .hero {
     background: url("../images/hero.png") no-repeat center center/cover;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     position: relative;
+    height: auto;
 }
 
 #hero-text {
@@ -223,11 +226,11 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        max-height: 180px;
     }
 
     #logo {
-        font-size: 350%;
-        margin-bottom: 3px;
+        font-size: 320%;
     }
 
     nav {
@@ -238,15 +241,15 @@ footer {
 
     #menu {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-content: center;
     }
 
     #menu li {
-        margin-bottom: 0;
+        margin-bottom: 10px;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .nav-toggle-label {
@@ -259,7 +262,7 @@ footer {
     }
 
     .hero {
-        height: 600px;
+        height: 500px;
     }
 
     #hero-text {
