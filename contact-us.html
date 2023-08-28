@@ -34,9 +34,30 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <p>contact</p>
-
+    <main id="contact-page">
+        <section>
+            <div></div>
+            <h2>Have some questions?</h2><br>
+        </section>
+        
+        <section> 
+            <form> 
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"> <br>
+                <label for="group-choice">Which group are you interested in?:</label> <br>
+                <select id="group-choice" name="group-choice" size="1"><br>
+                    <option value="monday">Monday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="both">Both</option>
+                    <option value="neither">Neither</option>
+                </select><br>
+                <label for="message">Message:</label><br>
+                <textarea name="message"></textarea> <br> 
+                <input type="submit" value="Submit"><br>
+            </form>
+        </section>
     </main>
 
     <footer>

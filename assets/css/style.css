@@ -90,9 +90,10 @@ nav {
 /* general styles of main content */
 main {
     flex: 1 0 auto;
-    margin-top: 72px;
+    margin-top: 80px;
     background-color: white display: flex;
     flex-direction: column;
+    letter-spacing: 1px;
 }
 
 main img {
@@ -129,9 +130,6 @@ section li {
 }
 
 /*main content*/
-main {
-    letter-spacing: 1px;
-}
 
 main h3 {
     text-align: center;
@@ -239,6 +237,14 @@ iframe {
     align-items: center;
     justify-content: space-around;
     margin: 15px;
+}
+
+/* contact page */
+
+#contact-page {
+    color: #74B3EC;
+    border: 30px solid #FFCC7C;
+    padding: 15px;
 }
 
 /* general footer styles*/
