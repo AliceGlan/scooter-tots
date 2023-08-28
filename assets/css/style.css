@@ -208,17 +208,17 @@ iframe {
  .meet-heading { 
     border-radius: 10px;
     width: fit-content;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
-    margin: 5px;
+    font-size: 120%;
  }
 
  #monday {
     border-bottom: 5px solid #FFCC7C;
     border-top: 5px solid #FFCC7C;
-    width: fit-content;
-    padding-left:  30px;
-    padding-right: 30px;
+    width: 190px;
+    padding-left:  22px;
+    padding-right: 22px;
     text-align: center;
     letter-spacing: 3px;
  }
@@ -226,9 +226,9 @@ iframe {
  #wednesday {
      border-bottom: 5px solid #74B3EC;
      border-top: 5px solid #74B3EC;
-     width: fit-content;
-     padding-left: 30px;
-     padding-right: 30px;
+     width: 190px;
+     padding-left: 10px;
+     padding-right: 10px;
      text-align: center;
     letter-spacing: 3px;
  }
@@ -242,6 +242,7 @@ iframe {
     align-items: center;
     justify-content: space-around;
     margin: 15px;
+    flex: 2 0 auto;
 }
 
 /* contact page */
@@ -425,7 +426,38 @@ footer {
         max-width: 60%;
         margin: 20px 0px;   
     }
+
+    #meet-text h3 {
+        font-size: 150%;
+    }
     
+    #meet-text p {
+        font-size: 110%;
+    }
+
+    .meet-heading {
+        font-size: 130%;
+        padding: 35px;
+        letter-spacing: 3px;
+    }
+
+    #monday {
+            border-bottom: 8px solid #FFCC7C;
+            border-top: 8px solid #FFCC7C;
+            width: 390px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 120%;
+        }
+
+    #wednesday {
+            border-bottom: 8px solid #74B3EC;
+            border-top: 8px solid #74B3EC;
+            width: 390px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 120%;
+        }
 
     /*footer*/
     footer {
@@ -508,7 +540,21 @@ footer {
     .meet-img {
         max-width:50%;
         margin-top: 45px;
-     }
+    }
+
+    #monday, #wednesday {
+             width: 550px;
+             padding-left: 30px;
+             padding-right: 30px;
+             font-size: 150%;
+    }
+
+    .meet-heading {
+            font-size: 160%;
+            padding: 50px;
+        
+    }
+
 
 }
 
@@ -542,5 +588,9 @@ footer {
     .flex-end {
         font-size: 150%;
     }
+
+        #monday,
+        #wednesday {
+            width: 700px;
 
 }
