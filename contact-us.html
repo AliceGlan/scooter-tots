@@ -36,16 +36,19 @@
     </header>
     <main id="contact-page">
         <section>
-            <div></div>
-            <h2>Have some questions?</h2><br>
+            <div class="no-display">Illustration by <a href="https://icons8.com/illustrations/author/N3YOxdn12Kox">Marina Mogulska</a> from <a
+                href="https://icons8.com/illustrations">Ouch!</a></div>
+            <h2 id="contact-heading">Have some questions?</h2>
+            <h3>Please get in touch</h3>
+            <div><img src="assets/animation/florid-mailing-list-1.gif" alt="opening a letter animation"> </div>
         </section>
         
         <section> 
-            <form> 
+            <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST" autocomplete="on"> 
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"> <br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email2" required>Email:</label><br>
+                <input type="email" id="email2" name="email2"> <br>
                 <label for="group-choice">Which group are you interested in?:</label> <br>
                 <select id="group-choice" name="group-choice" size="1"><br>
                     <option value="monday">Monday</option>
@@ -54,8 +57,8 @@
                     <option value="neither">Neither</option>
                 </select><br>
                 <label for="message">Message:</label><br>
-                <textarea name="message"></textarea> <br> 
-                <input type="submit" value="Submit"><br>
+                <textarea name="message" required></textarea> <br> 
+                <input type="submit" value="Submit" id="submit2"><br>
             </form>
         </section>
     </main>
