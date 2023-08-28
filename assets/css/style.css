@@ -156,7 +156,7 @@ main h3 {
     font-size: 110%;
 }
 
-#scooter-icon { 
+#scooter-icon {
     height: 50px;
     width: auto;
     display: flex;
@@ -176,16 +176,16 @@ section li {
 #meet {
     background: url("../images/skate-park.png") no-repeat center center/cover;
     width: 100%;
-    position: relative 
-    
+    min-height: 460px;
+    position: relative;
 }
 
 #meet-text {
     background-color: rgba(163, 158, 150, .7);
     position: absolute;
     bottom: 10px;
-    right: 10px;
-    padding: 0 15px 15px 25px;
+    left: 10px;
+    padding: 0 15px 15px 15px;
 }
 
 /* general footer styles*/
@@ -290,27 +290,27 @@ footer {
     }
 
     .flex-start {
-         display: flex;
-         justify-content: flex-start; 
-         align-items: center;
-         padding: 15px;
-         font-size: 110%; 
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+        font-size: 110%;
     }
 
     .flex-end {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 15px;
-            font-size: 110%;
-            flex-direction: row-reverse;
-            
-        }
-    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px;
+        font-size: 110%;
+        flex-direction: row-reverse;
+
+    }
+
     .box {
-            max-width: 300px;
-            margin: 0.7rem;
-        }
+        max-width: 300px;
+        margin: 0.7rem;
+    }
 
     #worries {
         text-align: right;
@@ -319,8 +319,8 @@ footer {
     main img {
         border-radius: 10px;
     }
-
-        /*footer*/
+    
+    /*footer*/
     footer {
         justify-content: space-between;
     }
@@ -361,7 +361,7 @@ footer {
         font-size: 400%;
     }
 
-    #menu  li {
+    #menu li {
         margin-left: 7rem;
         margin-right: 7rem;
         font-size: 130%;
@@ -379,19 +379,20 @@ footer {
     }
 
     .box {
-            max-width: 400px;
-            margin: 2rem;
-        }
+        max-width: 400px;
+        margin: 2rem;
+    }
 
     #tag-line {
         font-size: 140%;
     }
 
     #scooter-icon {
-            height: 110px;
-        }
+        height: 110px;
+    }
 
-    .flex-start, .flex-end {
+    .flex-start,
+    .flex-end {
         font-size: 130%;
     }
 
@@ -411,16 +412,16 @@ footer {
     }
 
     .box {
-            max-width: 500px;
-        }
-    
-        #tag-line {
-            font-size: 160%;
-        }
-    
-        .flex-start,
-        .flex-end {
-            font-size: 150%;
-        }
+        max-width: 500px;
+    }
+
+    #tag-line {
+        font-size: 160%;
+    }
+
+    .flex-start,
+    .flex-end {
+        font-size: 150%;
+    }
 
 }
