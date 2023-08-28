@@ -191,13 +191,55 @@ section li {
     right: 10px;
     padding: 0 15px 15px 15px;
 }
-#monday, #wednesday {
+ 
+iframe {
+     width: 350px;
+     height: 300px;
+     margin: 10px;
+ }
+
+ .map {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+ }
+
+ .meet-heading { 
+    border-radius: 10px;
     width: fit-content;
-    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 5px;
+ }
+
+ #monday {
+    border-bottom: 5px solid #FFCC7C;
+    border-top: 5px solid #FFCC7C;
+    width: fit-content;
+    padding-left:  30px;
+    padding-right: 30px;
+    text-align: center;
+ }
+
+ #wednesday {
+     border-bottom: 5px solid #74B3EC;
+     border-top: 5px solid #74B3EC;
+     width: fit-content;
+     padding-left: 30px;
+     padding-right: 30px;
+     text-align: center;
+ }
+
+#location-box {
+    color: black;
 }
 
-
-
+.meet-container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
 
 /* general footer styles*/
 footer {
@@ -315,7 +357,6 @@ footer {
         padding: 15px;
         font-size: 110%;
         flex-direction: row-reverse;
-
     }
 
     .box {
