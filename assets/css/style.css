@@ -191,6 +191,13 @@ section li {
     right: 10px;
     padding: 0 15px 15px 15px;
 }
+#monday, #wednesday {
+    width: fit-content;
+    margin: 10px;
+}
+
+
+
 
 /* general footer styles*/
 footer {
