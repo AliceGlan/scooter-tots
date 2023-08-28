@@ -162,7 +162,7 @@ main h3 {
 }
 
 .box {
-    padding: 25px;
+    padding: 25px 25px 10px;
 }
 
 section li {
