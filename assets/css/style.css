@@ -23,7 +23,6 @@ body {
 /* header*/
 header {
     background-color: #008A70;
-    padding: 8px;
     padding-left: 10px;
     position: fixed;
     z-index: 99;
@@ -90,7 +89,7 @@ nav {
 /* general styles of main content */
 main {
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: 62px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -157,7 +156,7 @@ main h3 {
 
 #scooter-icon {
     height: auto;
-    width: 60px;
+    width: 200px;
     display: flex;
     justify-content: flex-start;
 }
