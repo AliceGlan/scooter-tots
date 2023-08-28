@@ -261,10 +261,6 @@ footer {
         margin-top: 140px;
     }
 
-    .hero {
-        height: 500px;
-    }
-
     #hero-text {
         font-size: 190%;
     }
@@ -298,6 +294,10 @@ footer {
 
     #worries {
         text-align: right;
+    }
+
+    main img {
+        border-radius: 10px;
     }
 
         /*footer*/
