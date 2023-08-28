@@ -180,15 +180,15 @@ section li {
 
 .meet-img {
     border-radius: 50%;
-    width: 100%;
+    width: 90%;
+    margin: 15px;
+    padding-top: 5px;
 }
 
 #meet-text {
     background-color: #FF794B;
-    position: absolute;
-    bottom: 5px;
-    right: 10px;
-    padding: 0 15px 15px 15px;
+    padding: 10px 20px; 
+    text-align: center;
 }
  
 iframe {
@@ -218,6 +218,7 @@ iframe {
     padding-left:  30px;
     padding-right: 30px;
     text-align: center;
+    letter-spacing: 3px;
  }
 
  #wednesday {
@@ -227,6 +228,7 @@ iframe {
      padding-left: 30px;
      padding-right: 30px;
      text-align: center;
+    letter-spacing: 3px;
  }
 
 #location-box {
