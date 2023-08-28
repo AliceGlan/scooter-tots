@@ -103,6 +103,10 @@ main i {
     padding: 2px;
 }
 
+section li {
+    list-style-type: square;
+}
+
 /*hero styles*/
 .hero {
     background: url("../images/hero.png") no-repeat center center/cover;
