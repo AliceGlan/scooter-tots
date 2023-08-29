@@ -147,7 +147,11 @@ During my testing after the site was built I encountered the following bugs:
 
 ### Validator Testing
 
-[w3 validator](https://validator.w3.org/#validate_by_input) was used to validate my HTML codes. 
+[w3 HTML validator](https://validator.w3.org/#validate_by_input) was used to validate my HTML codes. 
+Index, meet-us and contact-us all passed the validator. 
+
+[w3 css validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate my css code. 
+css code passed with no errors.
 
 ##### Bugs found and fixed during validation 
 1. Heading closing tag was inconsistent with the opening tag. 
@@ -155,10 +159,6 @@ During my testing after the site was built I encountered the following bugs:
 3. "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values." Keeps coming up even though I manually take away the space. 
 4. I had a 'v' missing from a div closing tag. 
 5. I had the two name inputs with the same id. I have changed one tag to 'name2' and changed the styles.
-
-
-
-- CSS -->
 
 ### Unfixed Bugs
 
