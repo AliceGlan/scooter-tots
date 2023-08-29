@@ -160,11 +160,26 @@ css code passed with no errors.
 4. I had a 'v' missing from a div closing tag. 
 5. I had the two name inputs with the same id. I have changed one tag to 'name2' and changed the styles.
 
+#### Lighthouse
+I used Lighthouse within Chrome Developer Tools to test performace, accessibility, best practices and SEO. I tested each page for mobile devices and for desktop devices. The following are screenshots of the lighthouse results:
+
+##### For Desktop
+
+![Home page lighthouse results](documentation/home-lighthouse-desktop.png)
+![Meet us page lighthouse results](documentation/meet-lighthouse-desktop.png)
+![Contact us page lighthouse results](documentation/contact-lighthouse-desktop.png)
+
+##### For Mobile
+
+![Home page lighthouse results](documentation/home-mobile-lighthouse.png)
+![Meet us page lighthouse results](documentation/meet-mobile-lighthouse.png)
+![Contact us page lighthouse results](documentation/contact-mobile-lighthouse.png)
+
 ### Unfixed Bugs
 
-1. On the Meet Us page I wanted to have the map view in the middle. I attempted to use flex-box order in the HTML code and within CSS but was unsuccessful.
-2. The images seem to be pixilating a little and are not of high quality on the larger screens.
-3. The hero image is slow to load.
+1. As you can see from the lighthouse validator, my performance is orange for the landing page and the form page. Both the image and the animation were what was causing the performace level to drop. I had noticed there was an issue with the large hero image but not managed to find a fix for it. 
+2. On the Meet Us page I wanted to have the map view in the middle. I attempted to use flex-box order in the HTML code and within CSS but was unsuccessful.
+3. The images seem to be pixilating a little and are not of high quality on the larger screens.
 
 ## Credits
 
