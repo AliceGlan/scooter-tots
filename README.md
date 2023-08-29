@@ -143,6 +143,10 @@ When I deployed my site I had the following bugs:
 
 I have tested the site on a small laptop screen, iphone 13  iphone 11, larger laptop screen. 
 
+During my testing after the site was built I encounteded the following bugs:
+1.On a larger screen the welcome message was being cut off when landing on the page. This was reduced using Dev tools to identify a optimal height. 
+
+
 
 
 <!--  In this sectio
@@ -165,7 +169,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 1. On the meet us page I wanted to have the map view in the middle. I attempted to use flex-box order in the HTML code and within CSS but was unsuccessful. 
 2. the images seem to be pixalating a little and are not of high quality on the larger screens.
-3. On larger screens the height is not at optimal, the welcome text is cut off on the screen t
+3. I had put in a placeholder message 
 
 ## Credits
 
@@ -176,9 +180,9 @@ I used https://www.w3schools.com/ multiple times for reference, to refer back to
 - flex-box support 
 - creating a circle, and curved edges 
 
-i used Code institue runthrough project to support me in creating a toggling navigation menu 
+I used Code institue runthrough project to support me in creating a toggling navigation menu 
 
-i used google support to help troubleshoot my iframes not working 
+I used google support to help troubleshoot my iframes not working 
 https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop
 
 i used dev tools
