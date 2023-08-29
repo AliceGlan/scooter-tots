@@ -54,8 +54,6 @@ Scooter Tots main users will be people with a young child looking for opportunit
 - I want to connect to the groups social media accounts.
 - I want to check changes to group times.
 
----
-
 ## Design
 
 ### Colour Scheme
@@ -118,30 +116,16 @@ The website if made up of three pages, all accesible from the main navigation. T
     - text area for a message, left for the user to write various messages for various means of contact. 
 - A submit button at the end of the form. 
 
-## Technologies Used
-
-### Languages Used
-
-HTML and CSS
-
-### Frameworks, Libraries and Programs Used
-
-Github - to save and store files for website
-
-Favicon
-
-Google Dev tools -
-
-Font Awsome -
-
 ## Deployment
 
-<!--  This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The site is deployed through GitHub. I took the following steps to deploy my site: 
+1.
 
-The live link can be found here -  -->
+View Scooter Tots live page here - https://aliceglan.github.io/scooter-tots/
+
 
 ## Testing
-
+through each page using google chrome developer tools to ensure that they responsive on all different screen sizes
 <!--  In this sectio
 n, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -160,23 +144,50 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-<!--  You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
+1. On the meet us page I wanted to have the map view in the middle. I attempted to use flex-box order in the HTML code and within CSS but was unsuccessful. 
+1. the images seem to be pixalating a little and are not of high quality on the larger screens 
 
 ## Credits
 
 ### Code used
+I used https://www.w3schools.com/ multiple times for reference, to refer back to for 
+- form structure 
+- form attributes 
+- flex-box support 
+- creating a circle, and curved edges 
+
+i used Code institue runthrough project to support me in creating a toggling navigation menu 
+
+i used google support to help troubleshoot my iframes not working 
+https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop
+
+i used dev tools
 
 ### Content
 
-The content input is in my own words. 
+The content input is in my own words.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
 
 ### Design
-
+Google Fonts - To import the fonts used on the website.
+https://coolors.co/ - for colour scheme ideas 
 
 ### Media
+[Favicon.io](https://favicon.io/) To create favicon.
+[Tiny PNG](https://tinypng.com/) To compress images.
+pexels for the images 
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+pexels https://www.pexels.com/search/child%20scooter/
+
+https://icons8.com/illustrations/curated-sets/animated-1 
+
 
 ## Acknowledgements
 
 - How to write a Good readme (https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 - Accessibility and Meta Tags, by Abigail Harrison webinar (<https://www.youtube.com/watch?v=t-4qqmikIqk>)
 - Kera - readme webinar
+- code insitute readme structure example 
