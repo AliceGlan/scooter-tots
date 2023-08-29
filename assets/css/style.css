@@ -259,6 +259,18 @@ iframe {
     font-weight: bold;
 }
 
+#open-letter {
+    width: 90%;
+   
+}
+
+.flex-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+
 #contact-form {
     font-size: 120%;
 }
@@ -267,20 +279,28 @@ iframe {
     font-weight: 600;
 }
 
-#name, #email2, select, textarea  {
-    width: 100%;
-    padding: 2px;
-    border: 1px solid black ;
-    border-radius: 4px;
+select {
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
-#contact-form input, #contact-form textarea {
-    margin-bottom: 5px;
+#name, #email2, select, textarea  {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid black ;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 textarea {
     width: 100%;
-    height: 50px;
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
 #submit2 {
@@ -465,6 +485,43 @@ footer {
         height: 450px;
     }
 
+
+    /* contact page */
+    
+    #contact-heading {
+        font-size: 200%;
+        padding-bottom: 10px;
+    }
+
+    #contact-page {
+        border: 90px solid #FFCC7C;
+        padding: 25px;
+        }
+    
+        #open-letter {
+            width: 70%;
+        }
+    
+        #contact-form {
+            font-size: 120%;
+        }
+
+        #name,
+        #email2,
+        select,
+        textarea {
+            padding: 10px;
+            border: 2px solid black;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+    
+        textarea {
+            height: 100px;
+            font-size: 15px;
+        }
+
+
     /*footer*/
     footer {
         justify-content: space-between;
@@ -556,14 +613,27 @@ footer {
 
     .meet-heading {
             font-size: 160%;
-            padding: 50px;
-        
+            padding: 50px; 
     }
 
     iframe {
             width: 850px;
             height: 550px; 
     }
+
+    /*contact us page */
+    #contact-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 90px solid #FFCC7C;
+        padding: 30px;
+    }
+
+    #open-letter {
+        width: 70%;
+    }
+
 }
 
 /* media query: tablets and larger (1200px and up) */
