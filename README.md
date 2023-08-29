@@ -9,7 +9,10 @@ Scooter Tots website is designed to be responsive, knowing that users may access
 [View Scooter Tots on Github Pages](https://aliceglan.github.io/scooter-tots/)
 
 ## User Experience (UX)
+ Scooter Tots main users will be people with a young child looking for opportunities of play for them. The site needs to be user friendly, bright and colourful and with clear and simple information, as most parents are sleep deprevied. 
 
+ 
+ 
 ### User Stories
 
 #### Crea
