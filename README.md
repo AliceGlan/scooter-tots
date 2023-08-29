@@ -147,8 +147,16 @@ During my testing after the site was built I encountered the following bugs:
 
 ### Validator Testing
 
-<!--
-- HTML
+[w3 validator](https://validator.w3.org/#validate_by_input) was used to validate my HTML codes. 
+
+##### Bugs found and fixed during validation 
+1. Heading closing tag was inconsistent with the opening tag. 
+2. On the footer form the lable attribute 'for' did not match the id for the input. 
+3. "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values." Keeps coming up even though I manually take away the space. 
+4. I had a 'v' missing from a div closing tag. 
+5. 
+
+
 
 - CSS -->
 
