@@ -10,43 +10,48 @@ Scooter Tots website is designed to be responsive, knowing that users may access
 
 ## User Experience (UX)
 
-cooter Tots main users will be people with a young child looking for opportunities of play for them. The site needs to be user friendly, bright and colourful and with clear and simple information, as most parents are sleep deprevied.  #### Key informon for tite 
- - What Scooter Tots is.
- - When they meet. 
- - Where they meet. 
- - An opportunity toconnect with the group leader. 
- 
-### Us
-er Stories
+Scooter Tots main users will be people with a young child looking for opportunities of play for them. The site needs to be user friendly, bright and colourful and with clear and simple information, as most parents are sleep deprevied.
 
-#### Client Goals 
+#### Key information
+
+- What Scooter Tots is.
+- When they meet.
+- Where they meet.
+- An opportunity toconnect with the group leader.
+
+### User Stories
+
+#### Client Goals
+
 - To be able to use the site on a range of devices.
 - To advertise the benefits of joinging the group.
 - To make the roup appear friendly and inviting.
-- To allow us
-ers to contact me to ask questions if they are worried about attending or other reasons. 
+- To allow users to contact me to ask questions if they are worried about attending or other reasons.
 
 #### First-Time Visitor Goals
+
 - I want to understand what the club is about.
 - I want to check the requirements for at
-tending the club.
-- I want to ind out when and where the 
-cub is taking place.
+  tending the club.
+- I want to ind out when and where the
+  cub is taking place.
 - I want to feel like the club is welcoming and inviting.
 - I want to be updated about changes to ask a question.
 
 #### Returning Visior Goals
+
 - I want to check the day nd time of th group.
 - I
-want to check the requirements to attend.
+  want to check the requirements to attend.
 - I want to contact the club organiser and ask some questions.
 - I want to sign up to updates about future gr
-oups and recieve the newsletter. 
+  oups and recieve the newsletter.
 
 - I want to connect with the group on social media.
 
 #### Frequent Visitor Goals
-- I want to connect to the groups social media accounts. 
+
+- I want to connect to the groups social media accounts.
 - I want to check changes to group times.
 
 ---
@@ -55,58 +60,63 @@ oups and recieve the newsletter.
 
 ### Colour Scheme
 
-![Scooter Tots website colour pallet] (documentation/ST-colour-scheme.png)
+![Scooter Tots website colour pallet](documentation/ST-colour-scheme.png)
 
-The website uses bright colours that are playful. I alo chose colours that reflec a park or outside expereince of a sunny day, with the blue sky, yellow sun and green grass. he colour pallette was created using [coolors] (https:/coolors.co/). 
+The website uses bright colours that are playful. I alo chose colours that reflec a park or outside expereince of a sunny day, with the blue sky, yellow sun and green grass. he colour pallette was created using [coolors] (https:/coolors.co/).
 
 ### Typography
 
-Google Fonts was used for all the fonts on the site. I chose the logo font 
-as a curved playful font and for the main section I chose an easy to read font. 
-- Fira Sans is use
- for the main content
-- B used for the heading logo and welcome tag line. 
+Google Fonts was used for all the fonts on the site. I chose the logo font
+as a curved playful font and for the main section I chose an easy to read font.
 
-### Imagery 
+- Fira Sans is use
+  for the main content
+- B used for the heading logo and welcome tag line.
+
+### Imagery
+
 Images were sourced from [Pexels](https://www.pexels.com/search/child%20scooter/). I have chosen images that show children having fun in a range of possible similar settings that the groups might be held. I have also chosen images that reflects the use of other wheeled toys and is not specific to scooters.
 
 ## Features
-The website if made up of three pages, all accesible from the main navigation.
+
+The website if made up of three pages, all accesible from the main navigation. The site also has a relevant favicon of a scooter. 
 
 #### General features
-
-- favicon
-- A large Logo on the header
-- a navigation menu that is responsive
-- navigation that highlights the active page the user is on - this is more visible for larger screens
-- a footer with a newsletter form and social media links
-- a font awesome icon for the newsletter
-- a font awesome icon for the social media links
+- A large Logo in the header section. 
+- The header is visible through all pages even with scrolling. 
+- A navigation menu that is responsive with the bar icon for mobile use and a menu list that shows underneath the logo for larger screens. 
+- The navigation highlights the current page the user is on, this is visible for larger screens.
+- A footer with a newsletter form and social media links. These offer the user an easily accessible chance to connect with the group.
+- The form in the footer features has an input for name and email. 
+- The form has a subscribe button to enter the form.
+- A font awesome paper plane icon for the newsletter.
+- A font awesome icon for the social media links.
 
 #### Home page
 
--hero image
+- A large hero image with a welcome message to the group. This image is the first thing the user will see so it highlights the ethos of the club.
+- A scooter animation that is child friendly and fun to highlight the ethos of the group.
+- Information sections that include: our mission, benefits for tots, benefits for you, do not fear and rules of play. 
+- Two sections have a list for easy access to the information.
+- A font awesome icon that is relevant to the section is alongside the section headings.
+- Each section has an image above it that is related to the information in some way. This is another way that makes the information easily accessible and memorable. 
 
-- welcome message
-- scooter animation
-- information sections that include
-- our mission
-  - benefits for tots
-  - benefits for you
-  - do not fear
-  - rules of play
-- font awesome icons with the headings related to the content
-- images above the section with a related image in some way
-- two lists for the benefits
-
-#### meet us
+#### Meet Us
 
 - Large image of my tot, making it personal and making the group feel more welcoming and approachable offering an insight into the group leaders life.
-- a tagline with an inviting message
-- group meeting times with the day as the heading, the time and address and a map. This provides the user with multiple approaches to find the location of the group and reduces the need to contact the group leader with location questions.
+- A tagline with an inviting message.
+- The group meeting times with the day as the heading, the time and address and a map. This provides the user with multiple approaches to find the location of the group and reduces the need to contact the group leader with location questions.
 
-####
+#### Contact Us
 
+- A large border used to make it appear as the form is a piece of paper.
+- An animation image of hands recieving a letter with several icons to show the multiple ways to get in touch.
+- A form with the following input features: 
+    - name 
+    - email 
+    - a select option to identify which group they are interested in. This could be used to generate data to show which group is popular. 
+    - text area for a message, left for the user to write various messages for various means of contact. 
+- A submit button at the end of the form. 
 
 ## Technologies Used
 
@@ -142,6 +152,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 ### Validator Testing
+
 <!--
 - HTML
 
@@ -157,18 +168,15 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Content
 
-The content input in my own words (Alice Ganville) with the direction of Nancy Kimberley and Tom Kimberley.
+The content input is in my own words. 
 
 ### Design
 
-- Header and Navigation visual design (<https://www.winterarchitects.uk/?gclid=CjwKCAjwivemBhBhEiwAJxNWNxm8HOVzSJGq8GL_aCxfT_yGHL5jYQJScM7bTfGTRp3qhnvXgDxD3hoCvw8QAvD_BwE>)
-- Navigation headings (<https://www.robertslimbrick.com/> )
-- Design inspiration, my client really liked this website, including features like the hero image use. (<https://www.chalkarchitects.co.uk/>)
 
 ### Media
 
 ## Acknowledgements
 
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- How to write a Good readme (https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 - Accessibility and Meta Tags, by Abigail Harrison webinar (<https://www.youtube.com/watch?v=t-4qqmikIqk>)
 - Kera - readme webinar
