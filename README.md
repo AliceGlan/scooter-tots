@@ -119,9 +119,15 @@ The website if made up of three pages, all accesible from the main navigation. T
 ## Deployment
 
 The site is deployed through GitHub. I took the following steps to deploy my site: 
-1.
+1. Log into GitHub and locate the repository.
+2. Navigate to the settings tab. 
+3. Locate 'Pages', in the code and automation section in the navigation menu on the left.
+4. In the Sorce section choose 'deploy from branch'. 
+5. In the Branch section select 'main' and 'root'.
+6. Click save. 
+7. Your deployed url will now be accesible within your repository.    
 
-View Scooter Tots live page here - https://aliceglan.github.io/scooter-tots/
+You can view Scooter Tots live page here - https://aliceglan.github.io/scooter-tots/
 
 
 ## Testing
