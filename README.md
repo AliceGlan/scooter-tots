@@ -131,7 +131,20 @@ You can view Scooter Tots live page here - https://aliceglan.github.io/scooter-t
 
 
 ## Testing
-through each page using google chrome developer tools to ensure that they responsive on all different screen sizes
+Testing happened throughout the development, when I deployed early and when the build was complete. 
+I often fixed bugs as soon as I found them but this meant my commit messages were not very accurate.
+I used google chrome Dev tools to support building a responsive design. Most features needed adjusting when the screen size got bigger. 
+
+When I deployed my site I had the following bugs: 
+1. There was a slight gap between the navigation menu and the logo which was creating a small white line along. I used Dev tools to alter the padding. 
+2. The scooter animation was very small so I changed the unit of measurement from percentage to pixles. 
+3. Both buttons, subscribe and submit, were rounded edges, had a blue background, unexpected font colour and were not the size. They were inheriting a few styles. 
+4. Both iframes were not working. I used Google support to trouble shoot this. 
+
+I have tested the site on a small laptop screen, iphone 13  iphone 11, larger laptop screen. 
+
+
+
 <!--  In this sectio
 n, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -151,7 +164,8 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 1. On the meet us page I wanted to have the map view in the middle. I attempted to use flex-box order in the HTML code and within CSS but was unsuccessful. 
-1. the images seem to be pixalating a little and are not of high quality on the larger screens 
+2. the images seem to be pixalating a little and are not of high quality on the larger screens.
+3. On larger screens the height is not at optimal, the welcome text is cut off on the screen t
 
 ## Credits
 
