@@ -111,7 +111,8 @@ section li {
 
 /*general form*/
 
-#submit2, #subscribe {
+#submit2,
+#subscribe {
     background-color: #FF794B;
     border-radius: 6px;
     font-size: 15px;
@@ -120,7 +121,7 @@ section li {
     text-align: center;
     letter-spacing: 1px;
     border: 1px solid black;
- }
+}
 
 /*hero styles*/
 .hero {
@@ -202,57 +203,57 @@ section li {
 
 #meet-text {
     background-color: #FF794B;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     text-align: center;
 }
- 
-iframe {
-     width: 400px;
-     height: 300px;
-     border: 0;
-     margin: 10px;
- }
 
- .map {
+iframe {
+    width: 400px;
+    height: 300px;
+    border: 0;
+    margin: 10px;
+}
+
+.map {
     display: flex;
     align-self: center;
     justify-content: center;
- }
+}
 
- .meet-heading { 
+.meet-heading {
     border-radius: 10px;
     width: fit-content;
     padding: 10px;
     text-align: center;
     font-size: 120%;
- }
+}
 
- #monday {
+#monday {
     border-bottom: 5px solid #FFCC7C;
     border-top: 5px solid #FFCC7C;
     width: 190px;
-    padding-left:  22px;
+    padding-left: 22px;
     padding-right: 22px;
     text-align: center;
     letter-spacing: 3px;
- }
+}
 
- #wednesday {
-     border-bottom: 5px solid #74B3EC;
-     border-top: 5px solid #74B3EC;
-     width: 190px;
-     padding-left: 10px;
-     padding-right: 10px;
-     text-align: center;
+#wednesday {
+    border-bottom: 5px solid #74B3EC;
+    border-top: 5px solid #74B3EC;
+    width: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
     letter-spacing: 3px;
- }
+}
 
 #location-box {
     color: black;
 }
 
 .meet-container {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 15px;
@@ -274,7 +275,7 @@ iframe {
 
 #open-letter {
     width: 70%;
-   
+
 }
 
 .flex-header {
@@ -282,7 +283,7 @@ iframe {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-} 
+}
 
 #contact-form {
     font-size: 120%;
@@ -297,10 +298,13 @@ select {
     letter-spacing: 1px;
 }
 
-#name, #email2, select, textarea  {
+#name,
+#email2,
+select,
+textarea {
     width: 100%;
     padding: 4px;
-    border: 1px solid black ;
+    border: 1px solid black;
     border-radius: 4px;
     margin-bottom: 15px;
     font-family: 'Fira Sans', sans-serif;
@@ -446,17 +450,17 @@ footer {
     main img {
         border-radius: 10px;
     }
-    
+
     /*meet us page*/
     .meet-img {
         max-width: 60%;
-        margin: 20px 0px;   
+        margin: 20px 0px;
     }
 
     #meet-text h3 {
         font-size: 150%;
     }
-    
+
     #meet-text p {
         font-size: 110%;
     }
@@ -468,22 +472,22 @@ footer {
     }
 
     #monday {
-            border-bottom: 8px solid #FFCC7C;
-            border-top: 8px solid #FFCC7C;
-            width: 390px;
-            padding-left: 20px;
-            padding-right: 20px;
-            font-size: 120%;
-        }
+        border-bottom: 8px solid #FFCC7C;
+        border-top: 8px solid #FFCC7C;
+        width: 390px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 120%;
+    }
 
     #wednesday {
-            border-bottom: 8px solid #74B3EC;
-            border-top: 8px solid #74B3EC;
-            width: 390px;
-            padding-left: 20px;
-            padding-right: 20px;
-            font-size: 120%;
-        }
+        border-bottom: 8px solid #74B3EC;
+        border-top: 8px solid #74B3EC;
+        width: 390px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 120%;
+    }
 
     iframe {
         width: 650px;
@@ -492,7 +496,7 @@ footer {
 
 
     /* contact page */
-    
+
     #contact-heading {
         font-size: 200%;
         padding-bottom: 10px;
@@ -501,30 +505,30 @@ footer {
     #contact-page {
         border: 90px solid #FFCC7C;
         padding: 25px;
-        }
-    
-        #open-letter {
-            width: 70%;
-        }
-    
-        #contact-form {
-            font-size: 120%;
-        }
+    }
 
-        #name,
-        #email2,
-        select,
-        textarea {
-            padding: 10px;
-            border: 2px solid black;
-            margin-bottom: 15px;
-            font-size: 15px;
-        }
-    
-        textarea {
-            height: 100px;
-            font-size: 15px;
-        }
+    #open-letter {
+        width: 70%;
+    }
+
+    #contact-form {
+        font-size: 120%;
+    }
+
+    #name,
+    #email2,
+    select,
+    textarea {
+        padding: 10px;
+        border: 2px solid black;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    textarea {
+        height: 100px;
+        font-size: 15px;
+    }
 
 
     /*footer*/
@@ -558,11 +562,11 @@ footer {
 
 
     #submit2 {
-            font-size: 17px;
-            padding: 12px;
-            letter-spacing: 1px;
-            border: 2px solid black;
-        }
+        font-size: 17px;
+        padding: 12px;
+        letter-spacing: 1px;
+        border: 2px solid black;
+    }
 
 }
 
@@ -603,7 +607,7 @@ footer {
     #scooter-icon {
         width: 400px;
         padding-left: 30px;
-            
+
     }
 
     .flex-start,
@@ -613,25 +617,26 @@ footer {
 
     /*meet us page*/
     .meet-img {
-        max-width:50%;
+        max-width: 50%;
         margin-top: 45px;
     }
 
-    #monday, #wednesday {
-             width: 550px;
-             padding-left: 30px;
-             padding-right: 30px;
-             font-size: 150%;
+    #monday,
+    #wednesday {
+        width: 550px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 150%;
     }
 
     .meet-heading {
-            font-size: 160%;
-            padding: 50px; 
+        font-size: 160%;
+        padding: 50px;
     }
 
     iframe {
-            width: 850px;
-            height: 550px; 
+        width: 850px;
+        height: 550px;
     }
 
     /*contact us page */
@@ -672,21 +677,22 @@ footer {
     #tag-line {
         font-size: 160%;
     }
-    
+
     .flex-start,
     .flex-end {
         font-size: 150%;
     }
+
     /*meet us page*/
     iframe {
-            width: 450px;
-            height: 300px;
-            padding: 5px;
+        width: 450px;
+        height: 300px;
+        padding: 5px;
     }
 
     #open-letter {
-            width: 100%;
-        }
+        width: 100%;
+    }
 
     .flex {
         display: flex;

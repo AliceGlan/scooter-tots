@@ -48,9 +48,9 @@
         <section> 
             <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST" autocomplete="on"> 
                 <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email2" required>Email:</label><br>
-                <input type="email" id="email2" name="email2"> <br>
+                <input type="text" id="name" name="name" placeholder="Your name" required autofocus><br>
+                <label for="email2">Email:</label><br>
+                <input type="email" id="email2" name="email2" placeholder="Your email address" required> <br>
                 <label for="group-choice">Which group are you interested in?:</label> <br>
                 <select id="group-choice" name="group-choice" size="1"><br>
                     <option value="monday">Monday</option>
@@ -58,7 +58,7 @@
                     <option value="both">Both</option>
                     <option value="neither">Neither</option>
                 </select><br>
-                <label for="message">Message:</label><br>
+                <label for="message" placeholder="Your message">Message:</label><br>
                 <textarea name="message" required></textarea> <br> 
                 <input type="submit" value="Submit" id="submit2"><br>
             </form>
