@@ -513,8 +513,6 @@ footer {
     }
 
     /*main*/
-
-
     .hero {
         height: 700px;
     }
@@ -543,6 +541,7 @@ footer {
         font-size: 130%;
     }
 
+    /*meet us page*/
     .meet-img {
         max-width:50%;
         margin-top: 45px;
@@ -565,15 +564,12 @@ footer {
             width: 850px;
             height: 550px; 
     }
-
-
 }
 
 /* media query: tablets and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /*main*/
-
     .hero {
         height: 900px;
     }
@@ -594,12 +590,12 @@ footer {
     #tag-line {
         font-size: 160%;
     }
-
+    
     .flex-start,
     .flex-end {
         font-size: 150%;
     }
-
+    /*meet us page*/
     iframe {
             width: 450px;
             height: 300px;
@@ -614,6 +610,4 @@ footer {
         padding-top: 10px;
         padding-bottom: 15px;
     }
-
-
 }
