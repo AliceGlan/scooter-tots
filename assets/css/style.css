@@ -194,9 +194,11 @@ section li {
 }
  
 iframe {
-     width: 350px;
+     width: 400px;
      height: 300px;
+     border: 0;
      margin: 10px;
+     align-items: center;
  }
 
  .map {
