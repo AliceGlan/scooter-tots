@@ -141,22 +141,11 @@ When I deployed my site I had the following bugs:
 3. Both buttons, subscribe and submit, were rounded edges, had a blue background, unexpected font colour and were not the size. They were inheriting a few styles. 
 4. Both iframes were not working. I used Google support to trouble shoot this. 
 
-I have tested the site on a small laptop screen, iphone 13  iphone 11, larger laptop screen. 
+I have tested the site on a small laptop screen, iphone 13  iphone 11, larger laptop screen. It was tested on two browsers, safari and chrome. 
 
 During my testing after the site was built I encounteded the following bugs:
-1.On a larger screen the welcome message was being cut off when landing on the page. This was reduced using Dev tools to identify a optimal height. 
-
-
-
-
-<!--  In this sectio
-n, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+1. On a larger screen the welcome message was being cut off when landing on the page. This was reduced using Dev tools to identify a optimal height. 
+2. The place holder message was not visible in the text area. I had but the attribute in the label by mistake. 
 
 ### Validator Testing
 
@@ -168,24 +157,22 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 1. On the meet us page I wanted to have the map view in the middle. I attempted to use flex-box order in the HTML code and within CSS but was unsuccessful. 
-2. the images seem to be pixalating a little and are not of high quality on the larger screens.
-3. I had put in a placeholder message 
+2. The images seem to be pixilating a little and are not of high quality on the larger screens.
+3. The hero image is slow to load. 
+
 
 ## Credits
 
 ### Code used
-I used https://www.w3schools.com/ multiple times for reference, to refer back to for 
-- form structure 
-- form attributes 
-- flex-box support 
-- creating a circle, and curved edges 
+I used [w3schools](https://www.w3schools.com/) multiple times for reference and to refer back to. In particular:
+- The form structure and labels  
+- The form attributes.
+- For flex-box support.
+- Creating curved boarders on text boxes and images. 
 
-I used Code institue runthrough project to support me in creating a toggling navigation menu 
+I used Code institue runthrough project to support me in creating a toggling navigation menu.
 
-I used google support to help troubleshoot my iframes not working 
-https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop
-
-i used dev tools
+I used [Google support](https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop) to troubleshoot my iframe bug fix.
 
 ### Content
 
@@ -197,21 +184,18 @@ Github - To save and store the files for the website.
 
 ### Design
 Google Fonts - To import the fonts used on the website.
-https://coolors.co/ - for colour scheme ideas 
+
+[coolors](https://coolors.co/) - for colour scheme ideas 
 
 ### Media
-[Favicon.io](https://favicon.io/) To create favicon.
-[Tiny PNG](https://tinypng.com/) To compress images.
-pexels for the images 
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-pexels https://www.pexels.com/search/child%20scooter/
-
-https://icons8.com/illustrations/curated-sets/animated-1 
-
+[Favicon.io](https://favicon.io/) For a favicon.
+[Pexels](https://www.pexels.com/) for the images.
+[Am I Responsive?](http://ami.responsivedesign.is/) To show how the site is responsive. 
+https://icons8.com/illustrations/curated-sets/animated-1 For the animation of the scooter and on the contact form.
 
 ## Acknowledgements
 
 - How to write a Good readme (https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 - Accessibility and Meta Tags, by Abigail Harrison webinar (<https://www.youtube.com/watch?v=t-4qqmikIqk>)
-- Kera - readme webinar
-- code insitute readme structure example 
+- Kera-cudmore - [readme examples](https://github.com/kera-cudmore/readme-examples.git)
+- Code Insitute [readme structure example](https://github.com/Code-Institute-Solutions/readme-template.git) 
