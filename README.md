@@ -154,7 +154,7 @@ During my testing after the site was built I encountered the following bugs:
 2. On the footer form the lable attribute 'for' did not match the id for the input. 
 3. "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values." Keeps coming up even though I manually take away the space. 
 4. I had a 'v' missing from a div closing tag. 
-5. 
+5. I had the two name inputs with the same id. I have changed one tag to 'name2' and changed the styles.
 
 
 

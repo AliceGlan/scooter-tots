@@ -298,7 +298,7 @@ select {
     letter-spacing: 1px;
 }
 
-#name,
+#name2,
 #email2,
 select,
 textarea {
@@ -515,7 +515,7 @@ footer {
         font-size: 120%;
     }
 
-    #name,
+    #name2,
     #email2,
     select,
     textarea {
