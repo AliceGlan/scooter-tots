@@ -260,7 +260,7 @@ iframe {
 }
 
 #open-letter {
-    width: 90%;
+    width: 70%;
    
 }
 
@@ -631,7 +631,7 @@ footer {
     }
 
     #open-letter {
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -670,6 +670,10 @@ footer {
             height: 300px;
             padding: 5px;
     }
+
+    #open-letter {
+            width: 100%;
+        }
 
     .flex {
         display: flex;
